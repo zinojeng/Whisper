@@ -11,8 +11,9 @@ import openai
 from tempfile import NamedTemporaryFile
 import streamlit as st
 
-st.title("Audio to :blue[_Summarization_]")
-st.text("use the OpenAI Whisper function to convert your audio recording to a summary")
+st.markdown("<h1 style='text-align: center; color: blue;'>Audio to Summarization</h1>", unsafe_allow_html=True)
+
+st.text("Utilize the OpenAI Whisper function to convert your audio recording to a summary")
 st.text("use gpt-3.5-turbo-16k: faster and significantly cheaper to run")
 
 # 獲取API金鑰，從環境變數而非硬編碼
