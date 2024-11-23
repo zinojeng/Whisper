@@ -1,8 +1,19 @@
-# Audio_to_Summary2
+# Audio to Summary
 
-Long audio files are converted to text, translated to Chinese, and summarized.
+將音訊檔轉換為文字摘要的 Streamlit 應用程式。
 
-Modified from a script by Dr. Hsieh-Ting Lin.
+## 功能特點
+- 音訊轉文字（支援多種格式）
+- 自動生成中英文摘要
+- 產生雙語字幕檔（SRT格式）
+- 支援 GPT-4 和 GPT-4-turbo-preview 模型
+- 客製化系統提示
 
-[Original Script by Dr. Hsieh-Ting Lin](https://gist.github.com/htlin222/95ab35e5a55c4622d60e40fbc8ce4907?fbclid=IwAR2LnOkL-c2cgYxJixpT7MS4aFTTFXV7Y43R7x1nPZhfbnabDHzCq0Mg5DQ)
+## 安裝需求
+- Python 3.8+
+- FFmpeg
+- OpenAI API Key
+
+## 安裝步驟
+1. 克隆專案
 
