@@ -76,9 +76,8 @@ streamlit run main.py
 - 監控系統資源使用
 
 ## 作者
-```Doctor Tseng Yao Hsien
-Tungs Taichung Metroharbor Hospital
-```
+- Doctor Tseng Yao Hsien
+- Tungs Taichung Metroharbor Hospital
 
 ## 版本資訊
 - 目前版本：1.0.0 (2024/11)
