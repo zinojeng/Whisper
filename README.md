@@ -19,12 +19,16 @@
 ## 安裝步驟
 1. 複製專案
 
+```bash
 git clone https://github.com/zinojeng/Whisper.git
 cd Whisper
+```
 
 2. 安裝相依套件
 
+```bash
 pip install -r requirements.txt
+```
 
 3. 安裝 FFmpeg
 - macOS: `brew install ffmpeg`
@@ -34,7 +38,9 @@ pip install -r requirements.txt
 ## 使用方式
 1. 啟動應用程式
 
+```bash
 streamlit run main.py
+```
 
 2. 在側邊欄：
    - 輸入您的 OpenAI API 金鑰
@@ -70,8 +76,9 @@ streamlit run main.py
 - 監控系統資源使用
 
 ## 作者
-Doctor Tseng Yao Hsien
+```Doctor Tseng Yao Hsien
 Tungs Taichung Metroharbor Hospital
+```
 
 ## 版本資訊
 - 目前版本：1.0.0 (2024/11)
@@ -89,4 +96,4 @@ Tungs Taichung Metroharbor Hospital
 如有問題或建議，請在 GitHub 專案中建立 Issue。
 
 ---
-© 2024 曾醫師。保留所有權利。
+© 2024 Tseng Yao Hsien。保留所有權利。
